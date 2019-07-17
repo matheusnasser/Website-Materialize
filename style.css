@@ -1,0 +1,174 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    transition: none;
+    
+}
+/* MOBILE FRIENDLY SIDENAV SETTINGS */
+.sidenav{
+    background-color: transparent;
+    background-color: rgb(31, 31, 31);
+} 
+
+.sidenav li a{
+    color: white;
+    text-transform: uppercase;
+    margin-left: -30px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(31, 31, 31);
+}
+.sidenav .material-icons{
+    font-size: 30px;
+    color: white;
+    transform: translateX(20px);
+}
+.sidenav .brand-sidenav{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+
+}
+
+/* MOBILE FRIENDLY SIDENAV SETTINGS */
+
+
+
+/* REAL NAV (WEB SIZE) */
+.nav-wrapper{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+}
+
+.blacknav{
+    background-color: black;
+}
+
+.nav-wrapper li a{
+    text-transform: uppercase;
+}
+
+
+.nav-wrapper .brand-logo{
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+
+/* head/w message */
+.bBody{
+    margin-top: -7rem;
+    height: 60vh;
+    background-size: cover;
+    background: url("assets/headers.jpg") no-repeat 50% 50% / cover;
+}
+
+.bBody h1{
+    text-align: center;
+    transform: translateY(20vh);
+    font-size:100px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    .bBody h1 {
+      font-size: 40px;
+    }
+  }
+
+
+
+/* imagens */
+.row{
+    margin-top: 5rem;
+    color: black;
+
+}
+
+.row .bdP{
+    border-right: 2px solid white;
+}
+
+.row .col p{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.row .material-icons {
+    justify-content: center;
+    font-size: 80px;
+}
+
+
+.sHead{
+    height: 200px;
+    background: url("assets/subHead.jpg") 20%, 50% / cover;
+}
+
+
+.sHead h1{
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 20px;
+    transform: translateY(60px);
+}
+
+.sHead p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+/* Footer // Rodapé */
+.footer-copyright{
+    background-color: black;
+    color: white;
+    
+}
+
+.container-fluid{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.footer-copyright .container h5{
+    font-size: 20px;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    margin-left: -20rem;
+}
+
+.bBody .btn-large{
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.bBody .btn-large a:hover{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.bBody .btn-large:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* MOBILE FRIENDLY SIDENAV SETTINGS */
+.sidenav{
+    background-color: transparent;
+    border-right: 2px solid white;
+} 
+
+.sidenav li a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.sidenav .brand-sidenav{
+    background-color: #03030385;
+    height: 60px; 
+    text-align: center;
+    font-size: 20px;
+}
+
+/* MOBILE FRIENDLY SIDENAV SETTINGS */
+
+
+
+/* REAL NAV (WEB SIZE) */
+.nav-wrapper{
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+.nav-wrapper li a{
+    text-transform: uppercase;
+
+}
+
+
+.nav-wrapper .brand-logo{
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+
+.bBody{
+    margin-top: -7rem;
+    background: url("assets/headers.jpg") no-repeat 50% 50% / cover;
+    height: 60vh;
+    background-size: cover;
+}
+
+.bBody h1{
+    text-align: center;
+    transform: translateY(20vh);
+    font-size:100px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .bBody h1 {
+      font-size: 40px;
+    }
+  }
+
+  .form-contato{
+      background-color: black;
+      height: 650px;
+      padding: 20px;
+    
+      
+  }
+
+  .form-contato img{
+      padding: 2px;
+      margin-left: -20px;
+  }
+
+  .form-contato .row form{
+      color: white;
+      
+      margin-top: 50px;
+  }
+
+  .form-contato .row form input{
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      width: 60%;
+  }
+
+  .form-contato .row form .input-field{
+     justify-content: center;
+     margin-left: 250px;
+
+  }
+  .row .btn{
+      background-color: white;
+      color: black;
+  }
+
+  .row h1{
+      font-family: 'Nunito', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+
+
+
+
+  .footer-copyright{
+    background-color: black;
+    color: white;
+    
+}
+
+.container-fluid{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.footer-copyright .container h5{
+    font-size: 20px;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    margin-left: -20rem;
+}
